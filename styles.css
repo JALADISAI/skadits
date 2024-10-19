@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--text-color);
-    color: var(--text-color);
+    color: var(--background-color);
     line-height: 1.6;
 }
 
@@ -76,6 +76,7 @@ nav ul li a {
     padding: 4rem;
     position: relative;
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .curveLine {
@@ -212,9 +213,34 @@ h2 {
     margin: 0;
 }
 
+#benefits {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefits-left {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.benefits-left h2 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.benefits-right {
+    width: 451px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
 .benefits-list {
     list-style-type: none;
     padding: 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .benefits-list li {
@@ -223,11 +249,66 @@ h2 {
     position: relative;
 }
 
-.benefits-list li::before {
-    content: '✓';
-    color: var(--primary-color);
+.benefits-list li img,span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefits-list li span {
+    margin-left: 15px;
+}
+
+.scribble, .smile, .curvedown, .shapestar {
     position: absolute;
+}
+
+.income, .gallary, .amanda, .money, .fingers{
+    position: absolute;
+}
+
+.amanda {
+    top: 15%;
+    left: -30%;
+}
+
+.gallary {
+    top: 50%;
+    left: -15%;
+}
+
+.income {
+    top: 25%;
+    right: -30%;
+}
+
+.fingers {
+    top: -65px;
+    right: -20px;
+}
+
+.money {
+    bottom: 0;
+    left: -30%;
+}
+
+.scribble {
+    top: 0;
     left: 0;
+}
+
+.curvedown {
+    left: 0;
+    bottom: 0;
+}
+
+.smile {
+    top: 0;
+    right: 0;
+}
+
+.shapestar {
+    top: 80px;
+    right: 80px;
 }
 
 .faq-item {

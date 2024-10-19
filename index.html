@@ -1,43 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edifice CMS - Increase Your Productivity</title>
-    <script src="main.js" async></script>
+    <title>Selfice - Increase Your Productivity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <img src="/images/logo.svg" alt="Edifice CMS logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <main>
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>We're here to Increase your Productivity</h1>
-                    <p>We are a forward-thinking design studio, tailored to the needs of the new generation. Our focus is on delivering innovative design solutions.</p>
-                    <a href="#" class="cta-button">Get a free consultation Today</a>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.svg" />
+            </div>
+            <ul>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button class="contact-btn">Contact Us</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>We're here to Increase your Productivity</h1>
+                <img src="images/centerLine.svg" />
+                <p>We are a team of highly motivated individuals who are ready to take on the needs of the new
+                    generation. Our focus is on delivering innovative design solutions.</p>
+                <button class="cta-btn">
+                    <span>Get a free consultation Today</span>
+                    <img src="images/phone.svg" />
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.jpg" alt="Productive person">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>We Aim To Bridge The Gap Between Business And The Digital World</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="product-design-icon.png" alt="Product Design">
+                    <h3>Product Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="hero-image">
-                    <img class="bar" src="/images/bar.svg" alt="bar graph image">
-                    <img src="/images/human.png?height=400&width=400" alt="Productivity illustration">
-                    <img class="lineGraph" src="/images/lineGraph.svg" alt="laptop image">
+                <!-- Add more service items here -->
+            </div>
+        </section>
+
+        <section id="benefits">
+            <h2>About Benefits get from CMS</h2>
+            <ul class="benefits-list">
+                <li>Expert Brand Consultancy to Maximize Impact</li>
+                <li>Build a Strong Online Brand Presence</li>
+                <!-- Add more benefits here -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>We Handle A Diverse Array Of Creative Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Product Design">
+                    <h3>Product Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-            </section>
-        </main>
-    </div>
+                <!-- Add more project items here -->
+            </div>
+        </section>
+
+        <section id="faq" class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">How Can Digital Marketing Benefit My Business?</div>
+                    <div class="faq-answer">
+                        <p>Digital marketing can significantly benefit your business by increasing your online
+                            visibility, reaching a wider audience, and driving more targeted traffic to your website. It
+                            allows for better engagement with your customers, improves brand awareness, and can lead to
+                            higher conversion rates and ROI compared to traditional marketing methods.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do I Need To Have A Large Budget To Start Digital Marketing?</div>
+                    <div class="faq-answer">
+                        <p>No, you don't necessarily need a large budget to start digital marketing. There are many
+                            cost-effective strategies you can implement, such as content marketing, social media
+                            marketing, and email marketing. The key is to start small, focus on your target audience,
+                            and gradually scale your efforts as you see results.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How Long Does It Take To See Results From Digital Marketing?</div>
+                    <div class="faq-answer">
+                        <p>The timeline for seeing results from digital marketing can vary depending on factors such as
+                            your industry, competition, and the specific strategies you're implementing. Some tactics,
+                            like PPC advertising, can show immediate results, while others, like SEO and content
+                            marketing, may take several months to see significant improvements. Consistency and patience
+                            are key in digital marketing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What Is The Process Of Effective Digital Marketing?</div>
+                    <div class="faq-answer">
+                        <p>An effective digital marketing process typically involves the following steps: 1) Setting
+                            clear goals and objectives, 2) Identifying your target audience, 3) Developing a
+                            comprehensive strategy, 4) Creating and distributing valuable content, 5) Implementing
+                            various digital marketing tactics (SEO, PPC, social media, email marketing, etc.), 6)
+                            Monitoring and analyzing performance, and 7) Continuously optimizing and refining your
+                            approach based on data and insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Happy Words From Our Customer</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <p>Exceptional Service! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="customer-info">
+                        <img src="customer1.jpg" alt="Customer 1">
+                        <span>John Doe</span>
+                    </div>
+                </div>
+                <!-- Add more testimonial items here -->
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Our Latest News & Blogs</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <img src="blog1.jpg" alt="Blog 1">
+                    <h3>Wins 2023 good design London Award</h3>
+                </div>
+                <!-- Add more blog items here -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's start a project together</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">selfice</div>
+            <p>&copy; Copyright 2023, All Rights Reserved by selfice CMS</p>
+        </div>
+        <div class="social-links">
+            <!-- Add social media icons here -->
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>

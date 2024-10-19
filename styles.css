@@ -74,10 +74,17 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 4rem;
+    position: relative;
+}
+
+.curveLine {
+    position: absolute;
+    top: 70%;
+    left: 35%;
 }
 
 .hero-content {
-    max-width: 50%;
+    max-width: 35%;
     text-align: center;
 }
 
@@ -109,9 +116,41 @@ nav ul li a {
     margin-left: 10px;
 }
 
+.hero-image {
+    position: relative;
+}
+
+.barGraph {
+    position: absolute;
+    top: -90px;
+    right: -15px;
+}
+
+.lineGraph {
+    position: absolute;
+    bottom: -70px;
+    right: -15px;
+}
+
 .hero-image img {
     max-width: 100%;
     border-radius: 10px;
+}
+
+.frequentlyAskedStar {
+    position: absolute;
+    top: 40%;
+    left: -15px;
+}
+
+.star-wrapper {
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    background-color: var(--text-color);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
 }
 
 section {

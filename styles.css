@@ -13,7 +13,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(--text-color);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -75,6 +75,7 @@ nav ul li a {
     align-items: center;
     padding: 4rem;
     position: relative;
+    background-color: var(--background-color);
 }
 
 .curveLine {
@@ -163,21 +164,52 @@ h2 {
     text-align: center;
 }
 
-.services-grid, .projects-grid, .testimonials-grid, .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+#services {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
-.service-item, .project-item, .testimonial-item, .blog-item {
-    background-color: var(--secondary-bg);
-    padding: 1.5rem;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+#services h2 {
+    color: var(--background-color);
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
-.service-item:hover, .project-item:hover {
-    transform: translateY(-5px);
+.services-wrapper .bussiness{
+    display: inline-block;
+}
+
+.services-wrapper .services-grid {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 8px;
+    border: 1px solid var(--background-color);
+    border-radius: 5px;
+    height: 520px;
+}
+
+.services-grid-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-item {
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.service-item img {
+    display: inline-block;
+}
+
+.service-item div {
+    display: inline-block;
+}
+
+.service-item h3,p {
+    color: var(--background-color);
+    margin: 0;
 }
 
 .benefits-list {

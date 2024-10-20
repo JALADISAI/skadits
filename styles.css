@@ -446,6 +446,83 @@ span {
     justify-content: space-between;
 }
 
+#contact {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.contact-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    position: relative;
+    height: 100vh;
+}
+
+.contact-left h2 {
+    margin-top: 0;
+    width: 350px;
+    text-align: left;
+}
+
+.contact-left p {
+    color: var(--text-color);
+    max-width: 450px;
+    margin-left: 50px;
+}
+
+.contact-left .email, .contact-left .call {
+    color: var(--primary-color);
+}
+
+.social-logs {
+    margin-left: 50px;
+}
+
+.contact-left .icons img{
+    position: absolute;
+}
+
+.Sparkle {
+    top: -50px;
+    left: 0;
+}
+
+.circlecurve {
+    right: 0;
+    bottom: 0;
+}
+
+.lastpagecurveline {
+    bottom: 0;
+    left: -50px;
+}
+
+.startastar {
+    top: 0;
+    right: 50%;
+}
+
+.contact-right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-right: 4%;
+    height: 100vh;
+}
+
+.rambhusimg {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.contact-right label {
+    margin-bottom: 5%;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;

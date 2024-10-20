@@ -334,10 +334,12 @@ span {
 .projects-grid {
     display: flex;
     gap: 20px;
+    overflow: hidden;
 }
 
 #faq {
     color: var(--background-color);
+    height: 160vh;
 }
 
 .faq-item {
@@ -399,6 +401,43 @@ span {
 .faq-item.active .faq-answer {
     max-height: 1000px;
     padding: 1rem;
+}
+
+#testimonials h2{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.testimonials-grid {
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   gap: 50px;
+}
+
+.testimonials-grid p {
+    font-weight: bold;
+}
+
+.customer-info {
+    margin-top: 10%;
+}
+
+.customer-info img,div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customer-info div *{
+    display: block;
+}
+
+.customer-info div label {
+    font-weight: bold;
+}
+
+.customer-info div span {
+    color: #999999;
 }
 
 form {

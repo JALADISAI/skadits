@@ -440,6 +440,12 @@ span {
     color: #999999;
 }
 
+.blog-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
 form {
     display: flex;
     flex-direction: column;

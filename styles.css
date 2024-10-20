@@ -5,7 +5,7 @@
     --secondary-bg: #1a1a1a;
 }
 
-.active a{
+.active a {
     color: var(--primary-color);
 }
 
@@ -114,7 +114,7 @@ nav ul li a {
     align-items: center;
 }
 
-.cta-btn img{
+.cta-btn img {
     margin-left: 10px;
 }
 
@@ -177,7 +177,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-.services-wrapper .bussiness{
+.services-wrapper .bussiness {
     display: inline-block;
 }
 
@@ -208,7 +208,8 @@ h2 {
     display: inline-block;
 }
 
-.service-item h3,p {
+.service-item h3,
+p {
     color: var(--background-color);
     margin: 0;
 }
@@ -236,6 +237,7 @@ h2 {
     vertical-align: top;
     position: relative;
 }
+
 .benefits-list {
     list-style-type: none;
     padding: 0;
@@ -249,7 +251,8 @@ h2 {
     position: relative;
 }
 
-.benefits-list li img,span {
+.benefits-list li img,
+span {
     display: inline-block;
     vertical-align: middle;
 }
@@ -258,11 +261,18 @@ h2 {
     margin-left: 15px;
 }
 
-.scribble, .smile, .curvedown, .shapestar {
+.scribble,
+.smile,
+.curvedown,
+.shapestar {
     position: absolute;
 }
 
-.income, .gallary, .amanda, .money, .fingers{
+.income,
+.gallary,
+.amanda,
+.money,
+.fingers {
     position: absolute;
 }
 
@@ -311,10 +321,54 @@ h2 {
     right: 80px;
 }
 
+#projects {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+#projects h2 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+}
+
+#faq {
+    color: var(--background-color);
+}
+
 .faq-item {
-    background-color: var(--secondary-bg);
+    background-color: var(--text-color);
     border-radius: 5px;
     margin-bottom: 1rem;
+    border: 1px solid var(--background-color);
+}
+
+.faq-images {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    text-align: right;
+    position: relative;
+}
+
+.faq-images img:first-child {
+    margin-right: 25px;
+}
+
+.faq-images img:last-child {
+    position: absolute;
+    left: 0;
+    bottom: -50%;
+}
+
+.faq-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 59%;
 }
 
 .faq-question {
@@ -328,7 +382,7 @@ h2 {
 .faq-question::after {
     content: '+';
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: var(--background-color);
 }
 
 .faq-answer {
@@ -354,7 +408,8 @@ form {
     margin: 0 auto;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     margin-bottom: 1rem;
     padding: 0.75rem;
     border-radius: 5px;
